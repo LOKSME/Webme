@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+:root{
+
+    --font1:;
+    --font2:;
+    --font3:;
+
+    --color1:;
+    --color2:;
+    --color3:;
+
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html body{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Space between the logo, nav, and other elements */
+    align-items: center; /* Vertically center all items */
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Logo */
+#logo img {
+    height: 60px; /* Adjust according to your logo size */
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color:#4ECDC4;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f9c74f;
+    color: #333;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #f9c74f;
+}
+
+/* Call-to-Action Button */
+.cta-button a {
+    padding: 10px 20px;
+    background-color: #4ECDC4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button a:hover {
+    background-color: #3bb2a0;
+}
+
